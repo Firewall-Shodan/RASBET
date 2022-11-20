@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "baseUrl": ".",
+    "paths": {
+      "~/components": ["src/components"],
+      "~/modules": ["src/modules"],
+      "~/pages": ["src/pages"],
+      "~/utils": ["src/utils"],
+      "~/hooks": ["src/hooks"],
+      "~/redux/services": ["src/redux/services"],
+      "~/redux/features": ["src/redux/features"],
+    },
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
